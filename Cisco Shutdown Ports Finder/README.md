@@ -1,5 +1,6 @@
 # Cisco Shutdown Ports Finder
 
+
 This directory contains a Python script that connects to a Cisco IOS device over SSH and identifies network interfaces that are either **down** or **administratively down** and have not seen traffic for at least five weeks. Qualifying interfaces are written to a CSV file for easy review.
 
 ## Features
